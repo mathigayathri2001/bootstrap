@@ -11,30 +11,32 @@
         body {
             background-color: aqua;
         }
-        h2{border-bottom: 2px solid black;
-        padding: 20px;}
-        
 
+        h2 {
+            border-bottom: 2px solid black;
+            padding: 20px;
+        }
+
+        .navbar {
+            flex-flow: wrap;
+        }
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand navbar-light bg-light py-4">
-        <a class="navbar-brand badge badge-info ml-3 "><h1>Contact</h1></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto justify-content-around d-flex flex-wrap">
-                <a class="nav-item nav-link " href="index.html" >About</a>
-                <a class="nav-item nav-link " href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link " href="contact.html" >Contact</a>
-            </div>
+        <a class="navbar-brand badge badge-info ml-3 ">
+            <h1>Contact</h1>
+        </a>
+        <div class="navbar-nav justify-content-around ml-auto" style='flex-direction: row;'>
+            <a class="nav-item nav-link " href="index.html">About</a>
+            <a class="nav-item nav-link " href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link " href="contact.html">Contact</a>
+        </div>
         </div>
     </nav>
     <div class="container">
-        <div class="row">
+        <div class="row ">
             <div class="col bg-light mt-5 mb-5 ">
                 <h2>Contact</h2>
                 <form>
@@ -44,25 +46,20 @@
                     </div>
                     <div class="form-group">
                         <label for="InputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="InputEmail1"
-                            placeholder="example@gmail.com">
+                        <input type="email" class="form-control" id="InputEmail1" placeholder="example@gmail.com">
                     </div>
                     <div class="form-group">
                         <label for="Message">Message</label>
                         <textarea class="form-control" rows="5" id="Message"></textarea>
                     </div>
-
                     <button type="submit" class="btn btn-primary mb-3">Submit</button>
                 </form>
-
             </div>
         </div>
     </div>
     <footer>
         <div class="fixed-bottom bg-dark text-white py-3 text-center ">@Copyright</div>
         <span class="border border-primary"></span>
-
-        </footer>
+    </footer>
 </body>
-
 </html>

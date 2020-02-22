@@ -12,25 +12,26 @@
         body {
             background-color: burlywood;
         }
-
         h2 {
             border-bottom: 2px solid black;
             padding-top: 20px;
             padding-bottom: 20px;
-        }
 
+        }
+        .navbar {
+            flex-flow: wrap;
+
+        }
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand navbar-light bg-light py-4">
-        <a class="navbar-brand badge badge bg-primary ml-3 "><h1>Cockatiels</h1></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <a class="navbar-brand badge badge bg-primary ml-3 ">
+            <h1>Cockatiels</h1>
+        </a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto justify-content-around d-flex flex-wrap">
+            <div class="navbar-nav ml-auto justify-content-around " style='flex-direction: row;'>
                 <a class="nav-item nav-link " href="index.html">About</a>
                 <a class="nav-item nav-link " href="portfolio.html">Portfolio</a>
                 <a class="nav-item nav-link " href="contact.html">Contact</a>
@@ -42,40 +43,34 @@
             <div class="col bg-light mt-5 mb-5 ">
                 <div class="mr-4">
                     <h2>Portfolio</h2>
-                 </div>
-                <div class="row">
+                </div>
+                <div class="row justify-content-around">
+                    <div class="col mt-3 ">
+                        <img src="https://plantedwell.com/wp-content/uploads/2018/09/beautiful-flower-garden-designs-300x300.jpg"
+                            alt="garden" class="img-responsive mt-3 " /></div>
                     <div class="col mt-3">
-                        <img src="https://i.pinimg.com/originals/25/0c/f8/250cf885ad235da021a25fcbd52f7b26.jpg"
-                            alt="Placeholder" class="img-responsive mt-3 " /></div>
-                    <div class="col mt-3">
-                        <img src="https://static3.grsites.com/archive/textures/misc/misc285.jpg" alt="Placeholder"
+                        <img src="https://static3.grsites.com/archive/textures/misc/misc285.jpg" alt="dice game"
                             class="img-responsive mt-3 " /></div>
                 </div>
-                <div class="row">
+                <div class="row justify-content-around">
                     <div class="col mt-3">
-                        <img src="https://i.pinimg.com/originals/25/0c/f8/250cf885ad235da021a25fcbd52f7b26.jpg"
-                            alt="Placeholder" class="img-thumbnail mt-3 " /></div>
+                        <img src="https://lafeber.com/pet-birds/wp-content/uploads/2018/06/Cockatiel-2-300x300.jpg"
+                            alt="pet-bird" class="img-responsive mt-3 " /></div>
                     <div class="col mt-3">
                         <img src="https://en.es-static.us/upl/2019/11/Venus-Jupiter-11-24-2019-Robert-Williams-Hanover-PA-sq-300x300.jpg"
-                            alt="Placeholder" class="img-responsive mt-3 " /></div>
+                            alt="scenary" class="img-responsive mt-3 " /></div>
                 </div>
                 <div class="row">
                     <div class="col mt-3">
-                        <img src="https://images.clipartlogo.com/files/istock/previews/7367/73679007-hindu-girl-sign-brunette-indian-dancer-princess-bollywood-style.jpg" alt="Placeholder" class="img-responsive mt-3" /></div>
-                        </div>
-
-
-                    </div>
+                        <img src="https://images.clipartlogo.com/files/istock/previews/7367/73679007-hindu-girl-sign-brunette-indian-dancer-princess-bollywood-style.jpg"
+                            alt="dance" class="img-responsive mt-3" /></div>
                 </div>
             </div>
-        
-    
+        </div>
+    </div>
     <footer>
         <div class="fixed-bottom bg-dark text-white py-3 text-center ">@Copyright</div>
         <span class="border border-primary"></span>
-
     </footer>
 </body>
-
-
 </html>

@@ -1,1 +1,1 @@
-# bootstrap
+# This web site is developed using bootstrap functionalities such as responsive layout compatabile with various devices such as iphone,ipad,laptop and desktop. Three web pages such as About, Contact and Portfolio developed for this website.
